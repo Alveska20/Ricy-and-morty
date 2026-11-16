@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick and Morty - Personagens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Rick and Morty</h1>
+        <p>Conheça os personagens do desenho</p>
+    </header>
+
+    <main>
+        <section class="sobre">
+            <h2>Sobre o desenho</h2>
+            <p>
+                Rick and Morty é uma série de animação que estreou em 2013 e conta as aventuras
+                do cientista Rick Sanchez e do seu neto Morty Smith viajando por vários universos
+                e dimensões. Os personagens abaixo são carregados em tempo real da
+                <a href="https://rickandmortyapi.com/" target="_blank">Rick and Morty API</a>.
+            </p>
+        </section>
+
+        <section>
+            <h2>Personagens</h2>
+            <p id="mensagem">Carregando personagens...</p>
+
+            <!-- os cards sao criados pelo javascript dentro dessa div -->
+            <div id="lista-cards"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Trabalho de Desenvolvimento Front-end - Dados da Rick and Morty API</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
